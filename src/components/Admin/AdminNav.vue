@@ -85,9 +85,6 @@ const logout = async () => {
                 <path d="M0 0h36v36h-36z" fill="none" />
               </svg>
             </RouterLink>
-            <RouterLink to="/profile" @click="toggleMenu" class="block text-white mt-2 ml-2">
-              Manage Profile
-            </RouterLink>
             <span @click="logout" class="block text-white mt-2 ml-2">
               Logout
             </span>
