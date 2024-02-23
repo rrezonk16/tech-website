@@ -51,10 +51,8 @@ export default {
     };
   },
   mounted() {
-    // Get the slug from the URL
     const slug = this.$route.params.slug;
 
-    // Fetch product data using the provided API
     axios.get(`${API_URL}/api/products/read/${slug}`)
       .then(response => {
         this.product = response.data[0];
@@ -66,10 +64,8 @@ export default {
   },
   methods: {
     updateProduct() {
-      // Get the slug from the URL
       const slug = this.$route.params.slug;
 
-      // Update product using the provided API
       axios.put(`${API_URL}/api/update-products/${slug}`, this.product)
         .then(response => {
           console.log('Product updated successfully:', response.data);

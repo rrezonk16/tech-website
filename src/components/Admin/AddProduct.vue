@@ -75,7 +75,7 @@ export default {
   const shouldNavigate = window.confirm('Product added successfully! Do you want to view it?');
   
   if (shouldNavigate) {
-    const slug = response.data.slug; // Replace with the actual property from your response data
+    const slug = response.data.slug; 
     const productURL = `/products/${slug}`;
     window.location.href = productURL;
   }

@@ -1,5 +1,6 @@
 <template>
-  <div class="h-96 flex items-center justify-center">
+  <div>
+  <div class="mt-2 flex items-center justify-center">
     <form @submit.prevent="login" class="bg-white p-8 shadow-md rounded-md w-96">
       <div class="mb-4">
         <label for="name" class="block text-gray-700 text-sm font-bold mb-2">Name:</label>
@@ -51,7 +52,7 @@
         <RouterLink class="underline text-blue-900" to="/login">Login</RouterLink>
       </div>
     </form>
-  </div>
+  </div></div>
 </template>
 
 <script>

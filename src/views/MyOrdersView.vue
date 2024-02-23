@@ -74,7 +74,7 @@ import NoOrders from '@/components/NoOrders.vue'
         })
         .catch((error) => {
           console.error('Error fetching data:', error);
-          this.showNoOrders = true; // Set flag to true when there's an error
+          this.showNoOrders = true; 
         });
     },
     methods: {

@@ -1,6 +1,6 @@
 <template>
   <main>
-    <div class="w-full bg-blue-300 justify-center items-center text-center gap-3 flex p-3">
+    <div class="w-full bg-blue-300 justify-center items-center text-center gap-3 flex p-3 mb-a">
       <button @click="showLoadingAndProductsTable" class="h-10 border-2 p-2 py-1  border-blue-400 rounded-lg hover:bg-blue-200 ">Manage Products</button>
       <button @click="showLoadingAndOrdersTable" class="h-10 border-2 p-2 py-1  border-blue-400 rounded-lg hover:bg-blue-200 ">Manage Orders</button>
     </div>

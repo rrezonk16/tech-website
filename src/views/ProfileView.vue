@@ -30,7 +30,6 @@ export default {
     };
   },
   mounted() {
-    // Make a GET request to retrieve user data and prefill the inputs
     axios.get(API_URL + '/api/user/data', {
       headers: {
         Authorization: `Bearer ${AUTH_TOKEN}`
